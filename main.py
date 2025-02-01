@@ -151,7 +151,7 @@ class GetMusic(BasePlugin):
             response = await client.get(url, params=params)
             response.raise_for_status()
             data = response.json()["data"]
-            msg = response.json()["msg"]
+            msg = response.json()["message"]
             if data:
                 url = data["url"]
                 return msg, url
