@@ -18,7 +18,7 @@ from pydub import AudioSegment
 class GetMusic(BasePlugin):
     # 插件加载时触发
     def __init__(self, host: APIHost):
-        self.token = ""  # 请将这里的'YOUR_TOKEN'替换为你实际获取的token
+        self.token = "bwnbb760paasekhza69tpxmrgxqlbk"  # 请将这里的'YOUR_TOKEN'替换为你实际获取的token
         self.cookie = ""  # 请将这里的'YOUR_COOKIE'替换为你实际获取的cookie
         self.logger = logging.getLogger(__name__)
 
